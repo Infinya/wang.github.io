@@ -2,7 +2,7 @@
 if(isset($_POST['submit'])){
     $to = "sakuragi04@gmail.com"; // this is your Email address
     $from = $_POST["email"]; // this is the sender's Email address
-    $first_name = $_POST["first_name"];
+    $first_name = $_POST["firstname"];
     $last_name = $_POST["last_name"];
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
@@ -18,19 +18,4 @@ if(isset($_POST['submit'])){
     }
 ?>
 
-<!DOCTYPE html>
-<head>
-<title>Form submission</title>
-</head>
-<body>
 
-<form action="mail.php" method="post">
-First Name: <input type="text" name="first_name"><br>
-Last Name: <input type="text" name="last_name"><br>
-Email: <input type="text" name="email"><br>
-Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-<input type="submit" name="submit" value="Submit">
-</form>
-
-</body>
-</html>
