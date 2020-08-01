@@ -134,6 +134,8 @@
       <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
     <div class="container">
+	<label for="name"><b>Full Name</b></label>
+      <input type="text" placeholder="Full Name" name="name" required>
       
       <label for="email"><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" required>
