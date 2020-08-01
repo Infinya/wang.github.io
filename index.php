@@ -109,19 +109,19 @@
 </div>
   <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php" method="post">
+  <form class="modal-content animate" action="registration.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
 
     <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter email" name="email" required>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
         
-      <button class="logsig" type="submit">Login</button>
+      <button class="logsig" type="submit" name="login">Login</button>
       
     </div>
 
@@ -129,7 +129,7 @@
 </div>
 <div id="id02" class="modal">
 
-  <form class="modal-content" action="/action_page.php">
+  <form class="modal-content" action="registration.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
@@ -148,7 +148,7 @@
     
 
       <div class="clearfix">
-        <button type="submit" class="signupbtn logsig">Sign Up</button>
+        <button type="submit" class="signupbtn logsig" naem="signup">Sign Up</button>
       </div>
     </div>
   </form>
