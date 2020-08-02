@@ -30,12 +30,14 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropbtn">Login/Sign Up</a>
+          <a href="#" class="dropbtn">Login/Register</a>
           <div class="dropdown-content">
-            <a onclick="document.getElementById('id01').style.display='block'">Login</a>
-            <a onclick="document.getElementById('id02').style.display='block'">Sign Up</a>
+            <a href="login.php" >Login</a>
+            <a href="register.php">Register</a>
           </div>
         </li>
+
+        
       </ul>
 </div> 
 <h1>Connect 4</h1>
@@ -107,55 +109,6 @@
     Upload 
 </label>
 </div>
-  <div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="registration.php" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
-
-    <div class="container">
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter email" name="email" required>
-
-      <label for="password"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="password" required>
-        
-      <button class="logsig" type="submit" name="login">Login</button>
-      
-    </div>
-
-  </form>
-</div>
-<div id="id02" class="modal">
-
-  <form class="modal-content" action="registration.php">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
-    <div class="container">
-	<label for="name"><b>Full Name</b></label>
-      <input type="text" placeholder="Full Name" name="name" required>
-      
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-    
-
-      <div class="clearfix">
-        <button type="submit" class="signupbtn logsig" naem="signup">Sign Up</button>
-      </div>
-    </div>
-  </form>
-</div>
-
-<script>
-// Get the modal
 
 </script>
     <script src="index.js"></script>

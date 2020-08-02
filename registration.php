@@ -1,5 +1,5 @@
 <?php
-
+include('index.php');
 //Login users
 $db = mysqli_connect('mars.cs.qc.cuny.edu' , 'wach8068' , '23018068' , 'wach8068') or die("could not connect to database" ) ;
 $email = $_POST['email'] ;
@@ -27,8 +27,10 @@ if(isset($_POST['login']) )
         {
             $_SESSION['email'] = $email ;
             $_SESSION['success'] = "Logged in Successfully" ;
-
+            
             echo "You are now logged in. Thank you :)" ;
+            
+            
         }
         else
         {
@@ -36,6 +38,8 @@ if(isset($_POST['login']) )
         }
     }
 mysqli_close($db);
+
+
  }
 
  else
@@ -101,7 +105,12 @@ if( count($errors) == 0 )
     $_SESSION['UserName'] = $name ;
     $_SESSION['success'] = "You are now signed Up" ;
 
-    header( 'location: index.php' ) ;
+           /* echo '<script type="text/javascript">';
+            echo 'alert("You are now signed up!!!");';
+            echo '</script>';*/
+           
+    echo"You are now signed up!!!";
+    //header( 'location: index.php' ) ;
     mysqli_close($db);
 }
  
@@ -118,4 +127,15 @@ if( count($errors) == 0 )
     </div>
     
     <?php endif ?>
+<!--    <a href="index.php">Home</a>*/ -->
+<?php
+
+
+?>
+
+<script type="text/javascript">
+    
+    document.getElementById("slot56").style.setProperty("background-color","black");
+    
+</script>
     

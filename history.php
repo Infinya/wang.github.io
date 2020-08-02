@@ -25,10 +25,10 @@
           </div>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropbtn">Login/Sign Up</a>
+          <a href="#" class="dropbtn">Login/Register</a>
           <div class="dropdown-content">
-            <a onclick="document.getElementById('id01').style.display='block'">Login</a>
-            <a onclick="document.getElementById('id02').style.display='block'">Sign Up</a>
+            <a href="login.php" >Login</a>
+            <a href="register.php">Register</a>
           </div>
         </li>
       </ul>

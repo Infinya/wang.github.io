@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<head>
-  <title>Contact us</title>
-  <link rel="icon" href="connect4.png">
-  <link rel="stylesheet" href="contact-us.css">
-  <link rel="stylesheet" type="text/css" href="logsign.css">
-        <script src="logsign.js"></script>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
 </head>
+
 <body>
-  <div id="topnav">
+<div id="topnav">
       <ul>
 	      <li><a href="index.php" target="_balnk">Home</a></li>
 	      <li><a href="history.php" target="_balnk">History</a></li>
@@ -33,19 +34,18 @@
         </li>
       </ul>
 </div> 
-  <h1>Contact us</h1>
-  <h3>Contact Form</h3>
-    <div class="contactform">
-      <form action="mail.php" method="POST" >
-    	  <label for="fname">First Name</label>
-    	  <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-        <label for="lname">Last Name</label>
-    	  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-	      <label for="email">E-mail</label>
-    	  <input type="text" id="email" name="email" placeholder="Your e-mail address..">
-	      <label for="subject">Message</label>
-	      <textarea id="subject" name="subject" placeholder="Messages..." rows="12" cols="20"></textarea>
-	      <input type="submit" value="Submit">
-      </form>
+    <div class="form-body">
+            <form action= "registration.php" method = "POST" >
+                <label for="email">E-mail</label>
+                <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                <label for="password">Password</label>
+                <input class="form-control" type="password" name="password" placeholder="Password" required>
+                <input type="checkbox" id="chk1"><label for="chk1">Remember me</label>
+                <div class="form-button">
+                <button type="submit" id = "login" name = "login" class="ibtn">Login</button>
+            </form>
     </div>
+
 </body>
+
+</html> 
