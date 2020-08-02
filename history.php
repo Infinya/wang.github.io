@@ -10,11 +10,11 @@
 <body>
   <div id="topnav">
       <ul>
-	      <li><a href="index.php" target="_balnk">Home</a></li>
-	      <li><a href="history.php" target="_balnk">History</a></li>
-	      <li><a href="rules.php" target="_balnk">Rule</a></li>
-	      <li><a href="bio-page.php" target="_balnk">Meet the Developers</a></li>
-	      <li><a href="contact-us.php" target="_balnk">Contact-us</a></li>
+	      <li><a href="index.php" >Home</a></li>
+	      <li><a href="history.php">History</a></li>
+	      <li><a href="rules.php" >Rule</a></li>
+	      <li><a href="bio-page.php" >Meet the Developers</a></li>
+	      <li><a href="contact-us.php" >Contact-us</a></li>
 	      <li class="dropdown">
           <a href="#" class="dropbtn">External Links</a>
           <div class="dropdown-content">
