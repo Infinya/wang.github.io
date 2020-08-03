@@ -134,8 +134,7 @@ if( count($errors) == 0 )
 ?>
 
 <script type="text/javascript">
-    
-    document.getElementById("slot56").style.setProperty("background-color","black");
+   
     
 </script>
     
