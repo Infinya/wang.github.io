@@ -36,7 +36,7 @@
   <h1>Contact us</h1>
   <h3>Contact Form</h3>
     <div class="contactform">
-      <form action="mail.php" method="POST" >
+      <form action="mailto:anjalidutt@outlook.com" method="POST" enctype="text/plain" >
     	  <label for="fname">First Name</label>
     	  <input type="text" id="fname" name="firstname" placeholder="Your first name..">
         <label for="lname">Last Name</label>
