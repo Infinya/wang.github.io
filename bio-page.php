@@ -81,7 +81,7 @@
 	<div class="card">
   		<img src="https://cdn.glitch.com/909dd5d4-24fc-44c0-a66b-e402939ee036%2Fwang.jpg?v=1595014390873" alt="John" style="width:100%">
   		<h1>ChiaChieh Wang</h1>
-  		<p class="title">Server Administrator and Application Deployment</p>
+  		<p class="title">Front-End Development and Application Deployment</p>
   		<p>Queens College</p>
   		<p><button class="modal-button" href="#myModal3">About</button></p>
 		<div id="myModal3" class="modal">
