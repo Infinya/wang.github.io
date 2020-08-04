@@ -91,7 +91,7 @@
       					<h2>About ChiaChieh Wang</h2>
     				</div>
    				<div class="modal-body">
-      					<p>Chiachieh is a student at CUNY Queens College who aspires to work as a Server Administrator</p>
+      					<p>Hi, I'm Chia Chieh Wang! I am a senior student at Queens College majoring in computer science. I am a game lover, each day I would spend hours sitting in front of the computer. Therefore this is a great honor for me to be a part of the team that designs a connect 4 game.</p>
       					
     				</div>
     			
